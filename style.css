@@ -1,0 +1,85 @@
+header {
+    background-color: rgb(185, 163, 207); /* Укажите цвет фона */
+    color: wheat; /* Укажите цвет текста */
+    padding: 10px ;
+    text-align: center;
+    position: fixed; /* Зафиксируйте шапку */
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+  }
+  
+  nav {
+    display: flex; /* Выровняйте ссылки по горизонтали */
+    justify-content: center;
+    gap: 10px; /* Укажите расстояние между ссылками */
+  }
+  
+  nav a {
+    color: black; /* Укажите цвет ссылок */
+    text-decoration: none; /* Уберите подчеркивание */
+    padding: 10px;
+  }
+  .hero {
+    background-image: url('img/capybara.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black; 
+    margin-top: 60px; 
+    font-size: 45px;
+  }
+  .highlight {
+    background-color: rgb(215, 215, 200);
+    color: black;
+    font-weight: bold;
+    padding: 4px;
+  }
+
+  .about {
+    padding: 10px 10px;
+    display: flexbox; /* Используйте Flexbox */
+    justify-content: center; /* Выровняйте содержимое */
+    gap: 10px; /* Укажите расстояние между элементами */
+  }
+  
+  .about-text {
+    flex: 30px; /* Задайте, как текст будет занимать пространство */
+    min-width: 300px;
+  }
+  
+  .about img {
+    flex: 0 1 auto;
+    max-width: 500px; /* Установите максимальную ширину изображения */
+    border-radius: 10px; /* Добавьте скругленные углы */
+  }
+  .quote-container {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    width: 80%;
+    border-right: 10px;
+    margin-left: 10px;
+    max-width: 600px;
+    margin-left: 250px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    width: 1000px;
+}
+
+  footer {
+    background-color: rgb(185, 163, 207); /* Укажите цвет фона */
+    color: rgb(11, 11, 11); /* Укажите цвет текста */
+    padding: 10px ;
+    width: 100%;
+    z-index: 1000;
+    height: 40px;
+  }
+  
